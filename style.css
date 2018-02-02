@@ -1,0 +1,178 @@
+.popup-layout {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.popup {
+    z-index: 101;
+    display: block;
+    width: 480px;
+    margin: 0 0 0 -240px;
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    background: #fff;
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.popup .form-textarea,
+.popup .form-text {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.popup .form-inlinem,
+.popup .form-item {
+    margin: 0 0 10px;
+}
+
+.popup .form-inlinem:last-child,
+.popup .form-item:last-child {
+    margin-bottom: 0;
+}
+
+.popup .form-label {
+    display: inline-block;
+    margin: 0 0 5px;
+}
+
+.popup .btn {
+    min-width: 160px;
+}
+
+.popup .form-textarea {
+    height: 100px;
+}
+
+.popup .selecter {
+    width: 100%;
+    text-align: left;
+}
+
+.popup p {
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+.popup .form-inline .form-item {
+    margin-bottom: 0;
+}
+
+.popup .form-btn {
+    padding: 0;
+    margin-top: 25px;
+}
+
+.popup .form-btn .btn {
+    display: inline-block;
+}
+
+.popup-inner {
+    padding: 30px 35px;
+    text-align: center;
+}
+
+.popup-close {
+    display: block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+    background: #000;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.popup-close:hover {
+    color: #fff;
+    background: #c41e3a;
+}
+
+.popup-title {
+    margin: 0 0 30px;
+}
+
+.popup-reserve-stock .form-text,
+.popup-order-yardage .form-text {
+    width: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.popup-order-yardage .popup-close {
+    padding: 0;
+    padding-bottom: 2px;
+    border: none;
+    line-height: 1;
+}
+
+.popup-order-yardage .popup-title {
+    text-transform: uppercase;
+}
+
+.popup-order-yardage .selecter-item:hover,
+.popup-order-yardage .selecter-item.selected:hover {
+    background-color: #717073;
+}
+
+.popup-order-yardage .form-group {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    max-width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.popup-order-yardage .form-label {
+    padding: 0;
+}
+
+.popup-order-yardage .form-item .selecter {
+    width: 75px;
+}
+
+.popup-order-yardage .minYdMessage {
+    position: absolute;
+    display: none;
+    top: 68px;
+    right: initial; 
+    margin-top: 0;
+}
+
+.popup-order-yardage select:before,
+.popup-order-yardage select:after {
+    content: '';
+    position: absolute;
+    top: 73px;
+    right: 15px;
+    width: 14px;
+    height: 4px; 
+}
+
+.qty {
+      display: none;}
+  		  
+ .qty.active {
+     display: inline;
+ }
+ 

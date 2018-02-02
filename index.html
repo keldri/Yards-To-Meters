@@ -1,0 +1,33 @@
+<div class="popup popup-order-yardage popup-yardsToMeter category-products item" data-callback="moveProductDataToPopup" data-popup-class="popup-order-yardage">
+    <div class="ajaxcart-info" style="display:none;"></div>
+    <div class="popup-inner">
+        <button type="button" class="popup-close">×</button>
+        <h2 class="popup-title">ORDER YARDAGE</h2> 
+        <form>
+    <div class="form-group">
+      <div class="form-item">
+         <label class="form-label" for="qty--yards--reserve">Enter Yardage</label>
+         <div class="controls">
+           <input id="qty--yards--reserve" class="form-text not-empty qty active qty--yards" type="text" maxlength="12" title="Qty" name="qty">
+           <input class="form-text not-empty qty qty--meters" type="text" maxlength="12" title="Qty" name="qty">
+           <input type="hidden" name="order_type" id="order_type" data-value="reserve" value="reserve">
+         </div>
+     </div>
+     <div class="form-item">
+        <label class="form-label" for="measurement-options">Unit</label>
+        <div class="controls">
+          <select id="measurement-options--reserves" class="measurement-options">
+            <option value="yards">Yards</option>
+            <option value="meters">Meters</option>
+          </select>
+                    </div>
+                </div>
+                <div class="minYdMessage">minimum 1 yd required></div>
+            </div>
+           
+            <div class="form-btn">
+                <button class="btn btn-red btn-cart">Submit</button>
+            </div>
+ </form>
+    </div>
+</div>
